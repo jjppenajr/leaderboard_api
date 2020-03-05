@@ -1,0 +1,9 @@
+production:
+  clients:
+    default:
+      uri: mongodb+srv://leaderboard-api:<password>@leaderboard-api-nu1bl.mongodb.net/test?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+        password: 'pass.123'
+  options:
+    raise_not_found_error: false
